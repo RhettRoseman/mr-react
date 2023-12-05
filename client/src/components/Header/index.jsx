@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom';
 import "../../assets/css/style.css"
+import '../css/header.css'
 const Header = () => {
   return (
     <div>
            <nav className="rose-nav ml-auto">
-     <div><h1>ROSE Technologies</h1></div>
+     
+     <div className='titleimage'></div>
 
      <div>
      <ul>
