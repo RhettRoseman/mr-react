@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <main>
       <div className="image1 flex-row justify-center">
-      
+      <h2></h2>
       </div>
     </main>
   );

@@ -11,7 +11,7 @@
   -webkit-text-size-adjust: 100%;
   /* 2 */
   background-image: url(./assets/images/motherboard.jpg);
-  background-size: 100rem;
+  background-size: 110rem;
   background-repeat: no-repeat;
 
 }
@@ -1105,6 +1105,7 @@ a:hover {
 .card .card-footer {
   border-top: 1px solid #1a1a1a;
   padding: 0.375rem;
+  
 }
 
 .card.card-rounded {
