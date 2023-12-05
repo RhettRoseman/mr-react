@@ -27,7 +27,7 @@ const SingleThought = () => {
         {thought.thoughtAuthor} <br />
         <span style={{ fontSize: '1rem' }}>
           had this thought on {thought.createdAt}
-        </span>s
+        </span>ss
       </h3>
       <div className="bg-light py-4">
         <blockquote
