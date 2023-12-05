@@ -1,3 +1,18 @@
 .header{
-    margin-bottom: -20rem ;
+    margin-bottom: -25rem ;
+}
+
+.titleimage{
+    background-image: url(../../assets/images/rose-tech.jpg);
+    margin: auto;
+    width: 10rem;
+    height: 10rem;
+    background-position: center;
+    background-size: 10rem ;
+    margin-right: 1rem;
+    margin-left: -1rem;
+}
+
+ul{
+    margin-right: 1rem;
 }
