@@ -1,5 +1,6 @@
 import { useQuery } from '@apollo/client';
-import './css/home.css'
+import '../pages/css/home.css'
+
 // import ThoughtList from '../components/ThoughtList';
 // import ThoughtForm from '../components/ThoughtForm';
 
