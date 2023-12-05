@@ -1,3 +1,8 @@
+import React from "react";
+
+import {Route, Routes} from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
+
 import './App.css';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import { Outlet } from 'react-router-dom';
@@ -15,10 +20,8 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <div className="flex-column justify-flex-start min-100-vh">
-
+<Header/>
         {/*Header Section*/}
-        <Header />
-
 
 
         {/*Section 1*/}

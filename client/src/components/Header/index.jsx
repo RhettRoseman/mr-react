@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 import "../../assets/css/style.css"
 const Header = () => {
@@ -9,7 +10,9 @@ const Header = () => {
             <div>
                 <ul>
                     <li>
-                        <a href="/home">Home</a></li>
+                        {/*<a href="/home">Home</a>*/}
+                    <Link to="/home">Home</Link>
+                    </li>
                     <li><a href="/blog">Blog</a>
                     </li>
                     <li><a href="/portfolio">Portfolio</a></li>

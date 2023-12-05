@@ -11,6 +11,9 @@ import viteSVG from '../../assets/images/svg/viteLogo.svg';
 import netlifySVG from '../../assets/images/svg/netlifyLogo.svg';
 import sassSVG from '../../assets/images/svg/sassLogo.svg';
 
+//project images
+import project1Image from '../../assets/images/project1img.png';
+
 export default function Projects() {
     const [activeIndex, setCurrentIndex] = useState(0);
 
@@ -66,7 +69,7 @@ export default function Projects() {
                 </>
             ),
             demoUrl: "https://postup-69c44779947a.herokuapp.com",
-            image: "https://unsplash.com/photos/a-woman-climbing-up-a-large-rock-in-the-mountains-nEDEGCXh6VU",
+            image: project1Image,
             // imageProject,
         }
 
