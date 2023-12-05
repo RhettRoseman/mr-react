@@ -4,25 +4,27 @@
     color: white;
     font-weight: bold;
     width: 100%;
-    float: right;
+
     text-decoration: none;
     list-style: none;
     padding: 10px 10px 10px 10px;
     vertical-align: center;
+    margin-left: auto;
+
 
 }
 
 .rose-nav ul li {
-    display: inline-block;
+    display: flex;
     margin: 10px 10px;
-    width: 50%;
+    width: 100%;
 }
 
 .rose-nav ul li a{
     text-decoration: none;
     color: white;
     padding-left: 10px;
-    float:right;
+
 
 
 }
@@ -31,7 +33,7 @@
     text-decoration: none;
     color: yellow;
     padding-left: 10px;
-    float:right;
+
     /*none*/
 
 }

@@ -1,10 +1,12 @@
 import React from "react";
+import Header from '../components/Header/index'
 
 export default function About() {
 
-    return 
+    return(
+
     <div>
-       
+       <Header />
         <h2>Our Mission</h2>
         <div>
             <h6>
@@ -24,7 +26,7 @@ WE MADE IT EASY FOR YOU just chose from one of our 3 price options  in our servi
             </h6>
         </div>
     </div>
-   
 
+    )
 
 }
