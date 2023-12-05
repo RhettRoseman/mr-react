@@ -10,6 +10,10 @@
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
+  background-image: url(./assets/images/motherboard.jpg);
+  background-size: 100rem;
+  background-repeat: no-repeat;
+
 }
 
 /* Sections

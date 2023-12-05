@@ -5,6 +5,7 @@ import App from './App.jsx'
 import Home from './pages/Home'
 import SingleThought from './pages/SingleThought'
 import Error from './pages/Error'
+import About from './pages/About.jsx'
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
+     {
+      path: '/About',
+      element: <About/>,
+     },
       {
         path: '/thoughts/:thoughtId',
         element: <SingleThought />,
