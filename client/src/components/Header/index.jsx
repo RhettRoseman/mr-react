@@ -15,14 +15,14 @@ const Header = () => {
                   <div><p>ROSE Technologies</p></div>
 
                   <div>
-                      <ul>
+                  <ul>
                           <li>
                           <a href="/home">Home</a></li>
-                          <li><a href="/home">Blog</a>
+                          <li><a href="/Blog">Blog</a>
                           </li>
-                          <li><a href="/home">Portfolio</a></li>
-                          <li><a href="/home">About</a></li>
-                          <li><a href="/home">Contact</a></li>
+                          <li><a href="/Portfolio">Portfolio</a></li>
+                          <li><a href="/About">About</a></li>
+                          <li><a href="/Contact">Contact</a></li>
                       </ul>
 
                   </div>

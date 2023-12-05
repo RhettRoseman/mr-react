@@ -5,6 +5,7 @@ export default function Contact() {
 
     return
     <div className="contact">
+        <div>OUR TEAM</div>
         <h2>Joseph "Rhett" Roseman</h2>
         <h3>(Title)</h3>
         <div className="info">
