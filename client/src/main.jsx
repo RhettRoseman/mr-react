@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import SingleThought from './pages/SingleThought'
 import Error from './pages/Error'
 import About from './pages/About.jsx'
+import Team from './pages/Team.jsx'
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
      {
       path: '/About',
       element: <About/>,
+     },
+     {
+      path: '/our-team',
+      element: <Team/>,
      },
       {
         path: '/thoughts/:thoughtId',
