@@ -2,3 +2,17 @@
     background-image: url(../../assets/images/motherboard.jpg);
     justify-content: center;
 }
+.home {
+    background-color: white;
+    color: white;
+}
+
+h1{
+    color: antiquewhite;
+    text-align: center;
+}
+p{
+    color: antiquewhite;
+    text-align: center;
+}
+

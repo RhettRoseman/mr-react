@@ -1,20 +1,19 @@
-import { useQuery } from '@apollo/client';
-import '../pages/css/home.css'
+import React from 'react';
+import './css/home.css'
 
-// import ThoughtList from '../components/ThoughtList';
-// import ThoughtForm from '../components/ThoughtForm';
 
-// import { QUERY_THOUGHTS } from '../utils/queries';
 
 const Home = () => {
-  // const { loading, data } = useQuery(QUERY_THOUGHTS);
-  // const thoughts = data?.thoughts || [];
+
 
   return (
     <main>
      
         <div className='home'></div>
+    <h1>ROSE Technolgies</h1>
 
+    <p>We at ROSE Technolgies are a team of 4 fullstack developers that help business owners with software solutions tailored just for them and their business. 
+    </p>
    
     </main>
   );
