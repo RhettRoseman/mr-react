@@ -2,13 +2,20 @@
     display: inline-block;
     justify-content: center;
     text-align: center;
-
+    background-color: blueviolet;
     padding: 10px;
+
 }
 
 #person {
-    background-color: aqua;
+    color: white;
+    text-shadow: 3px 3px black;
+    background-image: url(../../assets/images/rose-tech.jpg);
+    background-size: cover;
+    background-position-y: center;
     margin: 5px;
+    padding: 10px;
+    border-radius: 16px;
 }
 
 img {
@@ -21,5 +28,4 @@ img {
 
 .info {
     margin: 5px;
-
 }
