@@ -5,15 +5,13 @@ const Header = () => {
   return (
     <div>
            <nav className="rose-nav ml-auto">
-     s
      <div className='titleimage'></div>
 
      <div>
      <ul>
              <li>
              <a href="/home">Home</a></li>
-             <li><a href="/Blog">Blog</a>
-             </li>
+             <li><a href="/Blog">Blog</a></li>
              <li><a href="/Portfolio">Portfolio</a></li>
              <li><a href="/About">About</a></li>
              <li><a href="/Contact">Contact</a></li>
@@ -21,7 +19,7 @@ const Header = () => {
 
      </div>
    </nav>
-    <header className=" header">
+    <header className="header">
       
         <Link className="text-light" to="/">
 
