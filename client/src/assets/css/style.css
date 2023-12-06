@@ -1,0 +1,39 @@
+.rose-nav, .rose-nav ul {
+    display: inline-flex;
+    background: #2d3e50;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+    vertical-align: center;
+    margin-left: auto;
+
+
+}
+
+.rose-nav ul li {
+    display: flex;
+    margin: 10px 10px;
+    width: 100%;
+}
+
+.rose-nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+
+
+
+}
+
+.rose-nav ul li a:hover{
+    text-decoration: none;
+    color: yellow;
+    padding-left: 10px;
+
+    /*none*/
+
+}
