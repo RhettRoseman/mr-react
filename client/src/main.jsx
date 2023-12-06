@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import App from './App.jsx'
 import Home from './pages/Home'
-import SingleThought from './pages/SingleThought'
+// import SingleThought from './pages/SingleThought'
 import Error from './pages/Error'
 import About from './pages/About.jsx'
 import Team from './pages/Team.jsx'
@@ -29,25 +29,18 @@ const router = createBrowserRouter([
       path: '/team',
       element: <Team/>,
      },
-      {
-        path: '/thoughts/:thoughtId',
-        element: <SingleThought />,
-      },
+   
         {
-          path: '/contact',
+          path: '/Contact',
           element: <Contact />,
         },
         {
-          path: '/portfolio',
+          path: '/Portfolio',
           element: <Portfolio />,
         },
         {
-          path: '/services',
+          path: '/Services',
           element: <Services />,
-        },
-      ,{
-            path: '/thoughts/:thoughtId',
-            element: <SingleThought />,
         }
     ],
   },

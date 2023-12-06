@@ -6,7 +6,6 @@ export default function Contact() {
     return (
 
         <div className="contact">
-            <Header />
             <h2>Contact Us below</h2>
             <div>
                 <div>
