@@ -6,7 +6,7 @@ export default function About() {
     return(
 
     <div>
-       <Header />
+
         <h2>Our Mission</h2>
         <div>
             <h6>

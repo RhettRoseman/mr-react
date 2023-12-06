@@ -7,6 +7,9 @@ import SingleThought from './pages/SingleThought'
 import Error from './pages/Error'
 import About from './pages/About.jsx'
 import Team from './pages/Team.jsx'
+import Contact from './pages/Contact.jsx'
+import Portfolio from './pages/Portfolio.jsx'
+import Services from './pages/Services.jsx'
 
 const router = createBrowserRouter([
   {
@@ -19,17 +22,33 @@ const router = createBrowserRouter([
         element: <Home />,
       },
      {
-      path: '/About',
+      path: '/about',
       element: <About/>,
      },
      {
-      path: '/our-team',
+      path: '/team',
       element: <Team/>,
      },
       {
         path: '/thoughts/:thoughtId',
         element: <SingleThought />,
       },
+        {
+          path: '/contact',
+          element: <Contact />,
+        },
+        {
+          path: '/portfolio',
+          element: <Portfolio />,
+        },
+        {
+          path: '/services',
+          element: <Services />,
+        },
+      ,{
+            path: '/thoughts/:thoughtId',
+            element: <SingleThought />,
+        }
     ],
   },
 ]);

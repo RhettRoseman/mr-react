@@ -17,7 +17,9 @@ const Header = () => {
                     </li>
                     <li><a href="/portfolio">Portfolio</a></li>
                     <li><a href="/about">About</a></li>
+                    <li><a href="/team">Our Team</a> </li>
                     <li><a href="/contact">Contact</a></li>
+                    <li><a href="/services">Services</a></li>
                 </ul>
 
             </div>
@@ -32,8 +34,8 @@ const Header = () => {
           <div className="flex-column justify-flex-start min-100-vh">
 
               <div className="container"><main><div className="flex-row justify-center"></div></main></div>
-              <footer className="w-100 mt-auto bg-secondary p-4"><div className="container text-center mb-5"><p>  ROSE Technologies™ 2023 </p></div>
-              </footer></div>
+
+              </div>
        </div>
     </header>
   );

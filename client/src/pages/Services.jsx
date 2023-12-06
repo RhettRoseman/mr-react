@@ -1,8 +1,9 @@
 import React from "react";
+import Header from '../components/Header/index'
 
 export default function Services() {
 
-    return
+    return(
     <div>
         <div><CCard style={{ width: '18rem' }}>
             <CCardImage orientation="top" src={ReactImg} />
@@ -40,4 +41,5 @@ export default function Services() {
             </CCard>
         </div>
     </div>
+    )
 }
