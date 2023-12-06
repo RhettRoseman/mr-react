@@ -4,6 +4,7 @@ export default function Services() {
 
     return
     <div>
+        <Header/>
         <div><CCard style={{ width: '18rem' }}>
             <CCardImage orientation="top" src={ReactImg} />
             <CCardBody>
