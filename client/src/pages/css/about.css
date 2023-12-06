@@ -1,6 +1,8 @@
 .billybob{
  /* margin-bottom: 40rem; */
 background-color: rgb(255, 255, 255);
+/* position: relative; or other positioning as needed */
+  top: 100px; /* Adjust this value according to your header height */
 }
 h2{
     text-align: center;

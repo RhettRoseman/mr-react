@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import "../../assets/css/style.css"
 import '../css/header.css'
-const Header = () => {
+export default function Header() {
   return (
     <div>
            <nav className="rose-nav ml-auto">
@@ -33,6 +33,6 @@ const Header = () => {
     </header>
 
    </div>
-)}
+)};
 
-export default Header;
+
