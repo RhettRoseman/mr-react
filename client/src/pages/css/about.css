@@ -1,0 +1,20 @@
+.billybob{
+ /* margin-bottom: 40rem; */
+background-color: rgb(255, 255, 255);
+}
+h2{
+    text-align: center;
+}
+#potato{
+    background-color: #2d3e50;
+    color: antiquewhite;
+    margin: 15rem;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0.8;
+}
+
+.nancy {
+    width: 60%;
+    padding: 15px;
+}

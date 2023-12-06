@@ -1,15 +1,10 @@
-import React from "react";
-
-import {Route, Routes} from "react-router-dom";
-import {BrowserRouter} from "react-router-dom";
-
 import './App.css';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import { Outlet } from 'react-router-dom';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Projects from './components/Projects';
+
 
 const client = new ApolloClient({
   uri: '/graphql',
@@ -19,31 +14,15 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
-      <div>
-<Header/>
-        {/*Header Section*/}
-
-
-        {/*Section 1*/}
-
-
-
-
-        {/*Section 2*/}
+      <div className="flex-column justify-flex-start min-100-vh">
+        <Header />
         <div className="container">
           <Outlet />
         </div>
-
-
-
-        {/*Section 3*/}
-
-
-        {/*Footer Section*/}
+      
         <Footer />
       </div>
     </ApolloProvider>
-
   );
 }
 
