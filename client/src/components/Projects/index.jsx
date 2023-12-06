@@ -41,7 +41,7 @@ export default function Projects() {
     //object array properties that will be used to call property values and render them in project cards
     const projects = [
         {
-            name: "Project1",
+            name: "Business Website",
             techstack: (
                 <>
 

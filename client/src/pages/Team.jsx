@@ -1,8 +1,9 @@
 import React from "react";
+import Header from '../components/Header/index'
 
 
 export default function Team(){
-return 
+return (
 <div className="team">
 
 
@@ -41,4 +42,5 @@ return
         </div>
 
 </div>
+)
 }
