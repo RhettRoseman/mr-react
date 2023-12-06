@@ -27,6 +27,27 @@ export default function About() {
                     (put questions here)
                 </p>
             </div>
+            <div className="whatitdo" id="itdothis">
+                <h2>What we do</h2>
+                <p>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </p>
+            </div>
+            <div>
+                <h2>Our Stacks</h2>
+                <p>
+                    Our Stack
+                    <ul>
+                        <li></li>
+                    </ul>
+                </p>
+            </div>
+            <div>
+                <h2>Our Team</h2>
+                
+            </div>
 
 
         </div>
