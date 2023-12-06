@@ -5,14 +5,21 @@
 .titleimage{
     background-image: url(../../assets/images/rose-tech.jpg);
     margin: auto;
-    width: 10rem;
-    height: 10rem;
+    width: 120px;
+    height: 145px;
+    margin-top: -2px;
     background-position: center;
     background-size: 10rem ;
     margin-right: 1rem;
     margin-left: -1rem;
 }
 
-ul{
+nav ul{
     margin-right: 1rem;
+    margin-bottom: 0px;
+    cursor: grab;
+}
+
+nav li{
+    cursor: grab;
 }
