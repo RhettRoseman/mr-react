@@ -8,12 +8,13 @@ export default function Header() {
      <div className='titleimage'></div>
 
      <div>
-     <ul>
+         <ul>
              <li><a href="/home">Home</a></li>
              <li><a href="/Blog">Blog</a></li>
              <li><a href="/Portfolio">Portfolio</a></li>
              <li><a href="/About">About</a></li>
              <li><a href="/Team">Team</a></li>
+             <li><a href="/Contact">Contact</a></li>
          </ul>
      </div>
    </nav>
