@@ -45,7 +45,6 @@ const router = createBrowserRouter([
         element: <Services />,
       },
 
-      // Add more routes as needed
     ],
   },
 ]);
