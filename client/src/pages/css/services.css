@@ -1,12 +1,25 @@
 /* Services.css */
+.cards{
+display: flex;
+margin: 10rem;
+}
 
 .card{
 color: antiquewhite;
+background-color: #2d3e50;
+opacity: 0.8;
+margin-right: 4rem;
+width: 120rem;
+
 }
 h2{
     color: antiquewhite;
 }
 
 h4{
+    text-align: center;
+}
+
+h5{
     text-align: center;
 }
