@@ -1,7 +1,6 @@
 import React from "react";
 import Header from '../components/Header/index'
 import Lottie from 'lottie-react';
-import emailSVG from '../assets/images/svg/95247-email.json';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, faHtml5, faCss3, faJsSquare, faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons';
 import '../pages/css/contact.css'
