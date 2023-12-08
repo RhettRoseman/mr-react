@@ -1,6 +1,7 @@
 .image1{
     background-image: url(../../assets/images/motherboard.jpg);
-    justify-content: center;
+    justify-content: right;
+    margin-right: 10rem;
 }
 .home {
     background-color: white;

@@ -11,8 +11,9 @@
   -webkit-text-size-adjust: 100%;
   /* 2 */
   background-image: url(./assets/images/motherboard.jpg);
-  background-size: 110rem;
+  background-size: 130rem;
   background-repeat: no-repeat;
+  justify-content: center;
 
 }
 
