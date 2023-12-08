@@ -4,16 +4,18 @@
     margin-right: 10rem;
 }
 .home {
-    background-color: white;
-    color: white;
+    color: antiquewhite;
+    text-align: center;
 }
 
 h1{
     color: antiquewhite;
-    text-align: center;
-}
-p{
-    color: antiquewhite;
-    text-align: center;
 }
 
+@media screen and (min-width: 414px) and (max-width: 600px) {
+    .home {
+        width: 80%;
+        margin: auto;
+    }
+    
+}
