@@ -7,7 +7,7 @@ export default function Header() {
            <nav className="rose-nav ml-auto">
      <div className='titleimage'></div>
 
-     <div>
+     <div className="navbar">
      <ul>
              <li><a href="/home">Home</a></li>
              <li><a href="/Blog">Blog</a></li>
