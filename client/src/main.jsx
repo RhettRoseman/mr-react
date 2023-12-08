@@ -45,6 +45,7 @@ const router = createBrowserRouter([
         path: '/services',
         element: <Services />,
       },
+
       {
         path: '/options',
         element: <Options/>

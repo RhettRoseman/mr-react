@@ -10,10 +10,10 @@ export default function Header() {
      <div>
      <ul>
              <li><a href="/home">Home</a></li>
-             <li><a href="/About">About</a></li>
+             <li><a href="/Blog">Blog</a></li>
              <li><a href="/Portfolio">Portfolio</a></li>
+             <li><a href="/About">About</a></li>
              <li><a href="/Team">Team</a></li>
-             <li><a href="/Services">Services</a></li>
          </ul>
      </div>
    </nav>
