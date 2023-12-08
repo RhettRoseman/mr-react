@@ -8,6 +8,7 @@ import Team from './pages/Team.jsx';
 import Contact from './pages/Contact.jsx';
 import Portfolio from './pages/Portfolio.jsx';
 import Services from './pages/Services.jsx';
+import Options from './pages/option.jsx';
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
         element: <Services />,
       },
 
+      {
+        path: '/options',
+        element: <Options/>
+      }
     ],
   },
 ]);
