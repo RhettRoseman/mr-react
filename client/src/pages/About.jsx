@@ -121,15 +121,15 @@ export default function About() {
                 </p>
             </div>
             <div>
-                <h2>Our Development languages</h2>
+                {/* <h2>Our Development languages</h2> */}
                 
-                <div className="logos">
+                {/* <div className="logos">
          {reactLogo} {viteLogo} {htmlLogo} {cssLogo} {sassLogo} {jsLogo} {nodeLogo} {typeScriptLogo} 
-        </div>
-            <h2>Our Database Systems</h2>
-       <div className="logos">
-        {mongoDbLogo} {sqlLogo}
-</div> 
+        </div> */}
+            {/* <h2>Our Database Systems</h2> */}
+       {/* <div className="logos">
+        {mongoDbLogo} {sqlLogo} */}
+{/* </div>  */}
 
                 
             </div>
