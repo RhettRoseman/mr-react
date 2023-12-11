@@ -10,20 +10,25 @@
     margin-top: -2px;
     background-position: center;
     background-size: 10rem ;
-    margin-right: 1rem;
+    /* margin-right: 1rem; DO NOT UNDO THIS LINE FATAL TO NAVBAR */
     margin-left: -1rem;
 }
 
 nav ul{
 
-    margin-right: 1rem;
+  
     margin-bottom: 0px;
     cursor: grab;
+    margin: 5px;
 }
 
 nav li{
     cursor: grab;
+    margin: 5px;
+    border: solid 1px;
+    text-align: center;
 }
+
 
 @media screen and (max-width: 414px) {
     nav ul {
