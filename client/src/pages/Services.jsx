@@ -120,7 +120,7 @@ export default function Services() {
         <h4>50% non-refundable deposit due at start of build</h4>
       </div>
       <div className="webcards" id='web' onClick={''} >
-        <h3>Website Development</h3>
+        <h3 id='webdev2'>Website Development</h3>
       </div>
       <div className="cards">
 
@@ -185,7 +185,7 @@ export default function Services() {
             <li> As many as 15-20 pages</li>
             <li>Database Management</li>
             <li>Full stack development website</li>
-            <li></li>
+            
           </ul>
 
         </div>
@@ -197,7 +197,7 @@ export default function Services() {
 
       </div>
       <div id='apps'>
-        <h3>Applications</h3>
+        <h3 id='app-dev'>Applications</h3>
         <div className='appcards'>
           <div className="appcard" onClick={''} >
 
@@ -266,11 +266,21 @@ export default function Services() {
 
 
 
-
+        
 
 
 
         </div>
+      </div>
+      <div className='freelance'>
+          
+      <h3 id='gold'> Freelance Contracting </h3>
+      <div id='free-lance'>
+      <h5>650.00/hr</h5>
+     <p>3-4 Developers</p>
+     </div> 
+            
+
       </div>
     </div>
   )
