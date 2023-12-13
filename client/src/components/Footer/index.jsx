@@ -119,10 +119,10 @@ export default function Footer() {
 
 
       {reactLogo} {htmlLogo} {cssLogo} {jsLogo}  {typeScriptLogo} {nodeLogo} {mongoDbLogo} {sqlLogo}
-  
+      </div>
         <p>  ROSE Technologies™ 2023 </p>
         
-      </div>
+      
     </footer>
   );
 };

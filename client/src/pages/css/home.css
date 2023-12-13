@@ -13,10 +13,20 @@ h1{
     color: antiquewhite;
 }
 
-@media screen and (min-width: 414px) and (max-width: 600px) {
+/* .logos {
+    width: 10%;
+    height: auto;
+} */
+
+@media screen and (min-width: 350px) and (max-width: 414px) {
     .home {
         width: 80%;
         margin: auto;
+    }
+
+    .btn {
+        font-size: 80%;
+        width: 40%;
     }
     
 }

@@ -130,7 +130,7 @@ function Home() {
         <br />
         <div> 
           <h2>We do Corporate Contracting</h2>
-          <button className='btn '>Freelancing</button>
+          <button className='btn free'>Freelancing</button>
         </div>
         <div><h2>We build it all ourselves</h2>
         <div className='logos'>
