@@ -31,21 +31,21 @@ nav li{
 }
 
 
-@media screen and (max-width: 414px) {
+@media screen and (min-width: 350px) and (max-width: 414px) {
     nav ul {
         flex-wrap: wrap;
         margin-top: -10rem;
         margin-bottom: -10rem;
-    }
-
-    nav ul li {
-        text-align: end;
+        justify-content: end;
     }
 
     .rose-nav ul li {
-        justify-content: end;
-        margin: 0;
+        width: 35%;
+        font-size: 60%;
+        text-align: center;
+        margin: 5px;
         padding: 5px;
-        margin-right: 10px;
+        /* margin-right: 10px; */
     }
+
 }
