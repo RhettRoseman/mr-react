@@ -2,31 +2,48 @@
     background-image: url(../../assets/images/motherboard.jpg);
     justify-content: right;
     margin-right: 10rem;
+    
 
 }
 .home {
     color: antiquewhite;
     text-align: center;
+    margin-top: 10rem;
 }
 
 h1{
     color: antiquewhite;
 }
 
-/* .logos {
-    width: 10%;
+.logos {
+    width: 100%;
     height: auto;
-} */
+}
 
 @media screen and (min-width: 350px) and (max-width: 414px) {
     .home {
         width: 80%;
         margin: auto;
+        margin-top: 10rem;
+    }
+
+    .home h1 {
+        font-size: 200%;
+        margin-bottom: 0%;
+        padding-top: 10px;
+    }
+
+    .home h2 {
+        font-size: 100%;
+        padding-bottom: 10px;
     }
 
     .btn {
         font-size: 80%;
-        width: 40%;
+        width: 30%;
     }
     
+    /* .logos svg {
+        width: 10%;
+    } */
 }
