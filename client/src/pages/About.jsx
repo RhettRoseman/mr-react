@@ -117,9 +117,7 @@ export default function About() {
             <div className="whatitdo" id="itdothis">
                 <h2>What we do</h2>
                 <p>
-                As a cohesive unit of four adept full-stack web developers, we possess a comprehensive skill set that extends beyond crafting the front-end or client side of websites and applications. Our forte lies in not only creating intuitive user experiences but also in architecting and implementing the robust back-end or server side of your digital solutions.
-
-Consider us your comprehensive solution hub for anything related to websites or applications. Our approach is rooted in building from scratch—each system, each component, meticulously developed in-house. However, our expertise doesn't merely stop at inception; we bring a wealth of experience in revitalizing and updating existing live websites. If you're seeking solutions for enhancements or updates to your current digital platform, rest assured, we have the expertise to navigate those waters adeptly.
+                    We are a team of 4 fullstack web developers. This means we can not only develop the front end or client side of the website or application but the back end or server side of the website or application as well. We are your one stop shop for anything website or app realted. We like to build from the ground up, meaning we like to create all our systems in house. We do have experience with updating current live websites and if this applies to you we may still be able to find a solution for you.
                 </p>
             </div>
             <div>
