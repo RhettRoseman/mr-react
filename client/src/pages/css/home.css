@@ -7,8 +7,10 @@
 }
 .home {
     color: antiquewhite;
+    width: 100vw;
     text-align: center;
     margin-top: 10rem;
+    
 }
 
 h1{
@@ -16,11 +18,11 @@ h1{
 }
 
 .logos {
-    width: 100%;
+    width: 100vw;
     height: auto;
 }
 
-@media screen and (min-width: 350px) and (max-width: 414px) {
+@media screen and (max-width: 430px) {
     .home {
         width: 80%;
         margin: auto;
@@ -43,7 +45,9 @@ h1{
         width: 30%;
     }
     
-    /* .logos svg {
-        width: 10%;
-    } */
+    .logos {
+        width: 100vw;
+        height: auto;
+    }
+
 }
