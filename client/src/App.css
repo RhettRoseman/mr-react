@@ -1175,9 +1175,10 @@ label form [type='radio'] {
 
 .container {
   /* width: 85%; */
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100vw;
+
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   /* margin-top: 10rem; */
 }
 .container {

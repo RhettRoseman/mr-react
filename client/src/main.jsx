@@ -9,7 +9,7 @@ import Contact from './pages/Contact.jsx';
 import Portfolio from './pages/Portfolio.jsx';
 import Services from './pages/Services.jsx';
 import Options from './pages/option.jsx';
-import '../src/pages/css/team.css'
+import '../src/pages/css/pages.css'
 
 const router = createBrowserRouter([
   {
