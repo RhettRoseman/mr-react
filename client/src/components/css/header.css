@@ -37,7 +37,7 @@ nav li{
 }
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 512px) {
     .rose-nav ul {
         flex-wrap: wrap;
         justify-content: center;
