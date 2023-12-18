@@ -1,11 +1,24 @@
-footer {
+.foot {
     background-color: #2d3e50;
     color: whitesmoke;
     /* margin-top: -1rem; */
     /* margin-bottom: -11rem; */
-    margin-top: 10rem;
+    margin-top: 5rem;
     text-align: center;
 }
+
+.foot-container {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foot .logo-svg {
+    width: auto;
+    height: 1rem;
+    margin-top: 0%;
+    margin: 5px 10px 15px 10px;
+    }
 
 /* @media screen and (max-width: 512px) { */
    
