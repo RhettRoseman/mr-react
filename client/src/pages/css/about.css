@@ -21,13 +21,3 @@ h2{
     padding: 15px;
 }
 
-.logos {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  
-  .logos svg {
-    width: 100px;
-    height: 100px;
-  }

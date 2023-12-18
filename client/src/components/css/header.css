@@ -3,49 +3,53 @@
     background-color: #232b2b;
 }
 
-.titleimage{
+.navbar {
+    width: 100vw;
+    display: inline-flex;
+    justify-content: center;
+    background: #2d3e50;
+    max-width: 800px;
+    /* inset-inline-end: 50px; */
+}
+
+/* .titleimage{
     background-image: url(../../assets/images/rose-tech.jpg);
-    margin: auto;
     width: 120px;
     height: 145px;
     margin-top: -2px;
     background-position: center;
-    background-size: 10rem ;
+    background-size: 10rem ; */
     /* margin-right: 1rem; DO NOT UNDO THIS LINE FATAL TO NAVBAR */
-    margin-left: -1rem;
-}
+    /* margin-left: 1rem;
+} */
 
 nav ul{
-
-  
-    margin-bottom: 0px;
+    /* float: right; */
     cursor: grab;
-    margin: 5px;
+    margin: 5px 0 5px 0;
 }
 
 nav li{
     cursor: grab;
-    margin: 5px;
+    margin: 5px 0 5px 0;
     border: solid 1px;
     text-align: center;
 }
 
 
-@media screen and (max-width: 414px) {
-    nav ul {
+@media screen and (max-width: 512px) {
+    .rose-nav ul {
         flex-wrap: wrap;
-        margin-top: -10rem;
-        margin-bottom: -10rem;
-    }
-
-    nav ul li {
-        text-align: end;
+        justify-content: center;
+        
     }
 
     .rose-nav ul li {
-        justify-content: end;
-        margin: 0;
-        padding: 5px;
-        margin-right: 10px;
+        font-size: 60%;
+        text-align: center;
+        margin: 0 15px 0 15px;
+        padding: 5px 0 5px 0;
+        /* margin-right: 10px; */
     }
+
 }

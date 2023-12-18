@@ -1,9 +1,15 @@
-footer{
+footer {
     background-color: #2d3e50;
     color: whitesmoke;
     /* margin-top: -1rem; */
-    margin-bottom: -11rem;
+    /* margin-bottom: -11rem; */
     margin-top: 10rem;
+    text-align: center;
 }
 
+svg {
+
+}
+
+/* @media screen and (max-width: 512px) { */
    

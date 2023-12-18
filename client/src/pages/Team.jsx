@@ -1,6 +1,6 @@
 import React from "react";
 import Header from '../components/Header/index'
-import '../pages/css/team.css'
+import '../pages/css/pages.css'
 
 
 export default function Team(){
