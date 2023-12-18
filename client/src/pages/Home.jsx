@@ -6,7 +6,6 @@ import { React, useState, CCard, CCardBody, CCardImage, CCardText, CCardTitle , 
 // useState, CCard, CCardBody, CCardImage, CCardText, CCardTitle
 // import reactSVG from '../assets/react.svg'
 import './css/services.css'
-
 // import '../../assets/css/services.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -127,16 +126,33 @@ function Home() {
       <div className='home'>
         <h1>ROSE Technolgies</h1>
         <br />
+        <br />
+        <br />
         <div>
-          <h2>We create Apps and Websites</h2>
-      <button  className='btn apps' >Apps</button>     <button className='btn web'>Websites</button>
+          <h2 >We create Apps and Websites</h2>
+          <br />
+          <br />
+          <br />
+
         </div>
         <br />
         <div> 
+          <br />
+          <br />
+          <br />
+          
           <h2>We do Corporate Contracting</h2>
-          <button className='btn free'>Freelancing</button>
+          
         </div>
+        <br />
+          <br />
+          <br />
+          <br />
+          <br />
         <div><h2>We build it all ourselves</h2>
+        <br />
+          <br />
+          
         <div className='logos'>
       {htmlLogo} {cssLogo} {jsLogo} {reactLogo} {nodeLogo} {typeScriptLogo} {netlifyLogo} {sassLogo} {viteLogo} {sqlLogo} {mongoDbLogo} {nextJsLogo} {postgresLogo}
  
