@@ -136,7 +136,7 @@ function Home() {
           <br />
           <br />
           <br />
-
+          <button>Apps</button> <button>Websites</button>
         </div>
         <br />
         <div> 
@@ -145,7 +145,8 @@ function Home() {
           <br />
           
           <h2>We do Corporate Contracting</h2>
-          
+          <br />
+          <button>Contracting</button>
         </div>
           <br />
           <br />
